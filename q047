@@ -1,0 +1,6 @@
+binary_free* search_max(binary_free* max) {
+	while (max->right != nullptr) {
+		max = max->right;
+	}
+	return max;
+}
